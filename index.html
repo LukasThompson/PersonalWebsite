@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <title>Lukas Thompson | Web Developer - Computer Programmer - 3D Modeler - Game Developer</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>LUKAS THOMPSON</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <div class="bio-img animate__animated animate__fadeInDown animate__fast">
+        <img
+          src="assets/images/dog-sits-table.jpg"
+          alt="jane-doe"
+          loading="lazy"
+          class="hero-img"
+        />
+      </div>
+      <div class="bio animate__animated animate__fadeInRight">
+        <h2 class="bio-title">About Me</h2>
+          <p class="bio-text">
+            I am currently pursuing my BSc in Information Technology with Game Development at the University of Purdue Global. 
+            In addition to my degree, I have completed a Full Stack Development Boot Camp and created multiple custom mods for 
+            Rocket League. I am looking for a Junior Gameplay Programmer position to develop my skills and pursue my passion for 
+            game development.
+          </p>
+      </div>
+    </section>
+
+    <!-- More about -->
+    <section class="more-about">
+      <div class="more animate__animated animate__fadeInUp animate__delay-1s">
+        <h2>More About Me</h2>
+        <p>
+          I have been working on and with computers since I was 10 when I built my very first custom rig. 
+          From there I self taught HTML and started building websites on AOL and GeoCities. I created multiple 
+          DBZ RPG pages and continued my love for computers experimenting and trying new things. 
+        </p>
+        <p>
+          Eventually, I received my Associates in Computer Programming and Systems Design from American Business and 
+          Technical University. I learned Java and VB.Net while using Visual Studio. Creating forms is one of my favorite 
+          things to do.
+        </p>
+        <p>
+          Along the way I learned Unity and Blender and decided that I wanted to become a Game Developer. I've also experimented 
+          with Arduino where I've programmed automated robots and green houses using Servos, DC Motors and different Sensors. One 
+          of my favorite creations was my Beer Bot!
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse animate__delay-2s">
+          <img
+            src="assets/icons/Unity_Logo_dma.jpg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/869px-Blender_Logo.svg.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/c.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-bootstrap.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-react-native.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-git.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/login.png"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Vet Clinic App</h3>
+          <p class="project-details">
+            A prototype program for a veterinary clinic. Completed the login and client search components using MySQL, 
+            C#, and Visual Studio.
+          </p>
+          <a href="https://github.com/LukasThompson/VetProgram" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/plinko.jpg"
+            alt="netflic-clone"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Rocket League Maps</h3>
+          <p class="project-details">
+            Created multiple custom Rocket League Maps using UDK3 and Kismet Blueprints and uploading to the steam Workshop. 
+            Gaining over 18,000 Current Subscribers!
+          </p>
+          <a href="https://steamcommunity.com/id/ChaosWizardOfficial/myworkshopfiles/?appid=252950" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/madmaxcar.png"
+            alt="greeny-earth"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">3D Models</h3>
+          <p class="project-details">
+            Created multiple game ready 3D models using Blender and Adobe Photoshop. Complete with low poly and high poly baked mesh 
+            with hand painted textures!
+          </p>
+          <a href="https://www.artstation.com/sibestudios" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xayvpllj" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      <a href="#" target="_blank"
+        ><img
+          src="assets/icons/R.jpg"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.linkedin.com/in/lukas-thompson-3a5110236/" target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/lukasthompson" target="_blank"
+        ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+      /></a>
+    </div>
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"
+    ><img
+      src="assets/icons/icons8-scroll-up-100.png"
+      class="socicon up-arrow"
+      alt="scroll-up"
+    /></i>
+
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; Copyright 2021</p>
+      <p class="copy">
+        <a href="https://github.com/lt" target="_blank"
+          >Lukas Thompson</a
+        >
+      </p>
+    </footer>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
